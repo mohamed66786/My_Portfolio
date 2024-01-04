@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcomment.png";
+import ecommereceImg from "@/public/ecomerece.png";
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -62,11 +62,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "MERN E-Commerce App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    // imageUrl: corpcommentImg,
+      "Designed and developed a feature-rich E-Commerce platform from the ground up, showcasing a seamless and user-friendly shopping experience",
+    tags: [ "Responsive Web Design ","Representational State Transfer (REST)","MongoDB" ,"Express.js" , "Node.js" ," React.js"],
+    imageUrl: ecommereceImg,
   },
   {
     title: "rmtDev",

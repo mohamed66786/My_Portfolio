@@ -27,11 +27,11 @@ export default function Intro() {
             <Image
               src="/profile.jpg"
               alt="Mohamed Image"
-              width="650"
-              height="650"
+              width="110"
+              height="100"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.25rem] border-white shadow-xl"
+              className=" rounded-lg object-cover border-[0.25rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -57,10 +57,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Mohamed.</span> I&apos;m a{" "}
-        <span className="font-bold">Full-Stack developer</span> {" "}
-       I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">MERN Stack apps , Next apps</span>.
+        <span className="font-bold">Full-Stack developer</span> I enjoy building{" "}
+        <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="underline">MERN Stack, React and Next Apps</span>.
       </motion.h1>
 
       <motion.div
@@ -82,7 +81,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack "
-          href="/CV.pdf"
+          href="/Mohamed Tarek Abdallah.pdf"
           download
         >
           Download CV{" "}
@@ -91,7 +90,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack "
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/mohamed-tarek-59855a2a4/"
           target="_blank"
         >
           <BsLinkedin />
@@ -99,7 +98,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
-          href="https://github.com"
+          href="https://github.com/mohamed66786?tab=repositories"
           target="_blank"
         >
           <FaGithubSquare />
