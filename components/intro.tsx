@@ -25,13 +25,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src=""
+              src="/profile.jpg"
               alt="Mohamed Image"
-              width="192"
-              height="192"
+              width="650"
+              height="650"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-24 w-24 rounded-full object-cover border-[0.25rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -73,7 +73,8 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none
+           focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
