@@ -3,6 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ecommereceImg from "@/public/ecomerece.png";
+import chatImg from "@/public/chat.png";
+import footImg from "@/public/food.png";
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -64,23 +66,41 @@ export const projectsData = [
   {
     title: "MERN E-Commerce App",
     description:
-      "Designed and developed a feature-rich E-Commerce platform from the ground up, showcasing a seamless and user-friendly shopping experience",
-    tags: [ "Responsive Web Design ","Representational State Transfer (REST)","MongoDB" ,"Express.js" , "Node.js" ," React.js"],
+      "E-Commerce platform showcasing a seamless and user-friendly shopping experience",
+    tags: [
+      "Responsive Web Design ",
+      "REST",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      " React.js",
+      "Redux",
+    ],
     imageUrl: ecommereceImg,
+    github: "https://github.com/mohamed66786/MERN-E-COMMERECE-APP",
   },
   {
-    title: "rmtDev",
+    title: "Restaurant Page",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    // imageUrl: rmtdevImg,
+      "This project describes more information about restaurant food and enhances user experience about restaurants. This project was created by Reactjs.",
+    tags: ["React", "HTML", "Tailwind", "CSS", "Responsive Web Design"],
+    imageUrl: footImg,
+    github: "https://github.com/mohamed66786/Restaurant--Page",
   },
   {
-    title: "Word Analytics",
+    title: "MERN Chat App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    // imageUrl: wordanalyticsImg,
+      "Real-Time Chat Application built on the powerful MERN Stack, provide users with a dynamic and responsive chat experience",
+    tags: [
+      "React",
+      "Responsive Web Design",
+      "Next.js",
+      "MongoDB",
+      "Express.js",
+      "Socket.io",
+    ],
+    imageUrl: chatImg,
+    github: "https://github.com/mohamed66786/MERN-Chat-App",
   },
 ] as const;
 
@@ -94,14 +114,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;

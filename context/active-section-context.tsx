@@ -37,7 +37,8 @@ export default function ActiveSectionContextProvider({
   );
 }
 
-export function usweActiveSectionContext() {
+// using this context
+export function useActiveSectionContext() {
   const context = useContext(ActiveSectionContext);
 
   if (context === null) {
